@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <title>Cloudiness</title>
+</head>
+<body>
+  <ul class="nav nav-tabs" id="navId">
+    <li class="nav-item">
+      <a href="#tab1Id" class="nav-link active">Active</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="https://aedrington.github.io/WebHW/MaxTemp">Max Temperature</a>
+        <a class="dropdown-item" href="https://aedrington.github.io/WebHW/Humidity">Humidity</a>
+        <a class="dropdown-item" href="https://aedrington.github.io/WebHW/Cloudiness">Cloudiness</a>
+        <a class="dropdown-item" href="https://aedrington.github.io/WebHW/WindSpeed">Wind Speed</a>
+        <a class="dropdown-item" href="https://aedrington.github.io/WebHW/Comparisons">Comparisons</a>
+        <a class="dropdown-item" href="https://aedrington.github.io/WebHW/Data">Data</a>
+        <div class="dropdown-divider"></div>
+      </div>
+    
+    <h1>
+        Cloudiness
+    </h1>
+<br>
+<script>
+  $('#navId a').click(e => {
+    e.preventDefault();
+    $(this).tab('show');
+  });
+</script>
+</body>
+</html>
